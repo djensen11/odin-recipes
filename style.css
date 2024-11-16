@@ -2,15 +2,39 @@
 
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ddd;
 }
 
 /* These apply mainly to index.html*/
 .header {
     color: black;
+    background-color: #aaa;
+    text-align: center;
+    margin: 8px auto;
+    width: 35%;
+    border-radius: 10px;
+    border: 3px solid peachpuff;
+    padding: 20px 0px;
+}
+
+.link{
+    color:black;
+    font-size: large;
+    background-color: #aaa;
 }
 
 .recipe{
-    color:aqua;
+    padding: 12px;
+    text-align: center;
+    margin: 12px auto;
+    background-color: #aaa;
+    width: 50%;
+    border-radius: 10px;
+    border: 3px solid peachpuff;
+}
+
+.list{
+    list-style-type: none;
 }
 
 /* These apply mainly to recipe pages*/
